@@ -43,7 +43,7 @@ export default function DosEmulator() {
         setInitialized(true);
         setLoading(true);
         
-        const Dos = await loadScript();
+        const Dos = await loadScript() as any;
         
         console.log('Inicializando DOSBox v6...');
         

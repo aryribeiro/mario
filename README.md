@@ -1,5 +1,5 @@
 # 🎮 Mario Teaches Typing - Web Edition
-**🎮 Divirta-se e aprenda a digitar c/ os 10 dedos em ambiente gamificado, com o Mário!**
+**Divirta-se e aprenda a digitar c/ os 10 dedos em ambiente gamificado, com o Mário!**
 
 Obs.: trata-se de uma emulação do clássico jogo educacional "Mario Teaches Typing" (1995) rodando diretamente no navegador.
 
