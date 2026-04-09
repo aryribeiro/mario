@@ -208,6 +208,7 @@ mididevice=default
             opacity: loading ? 0 : 1,
             transition: 'opacity 0.3s ease-in-out',
             imageSmoothing: 'false',
+            cursor: 'none',
           } as React.CSSProperties}
         />
       </div>

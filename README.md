@@ -1,7 +1,8 @@
 # 🎮 Mario Teaches Typing - Web Edition
 **Divirta-se e aprenda a digitar c/ os 10 dedos em ambiente gamificado, com o Mário!**
+<img width="1560" height="975" alt="image" src="https://github.com/user-attachments/assets/0ce4af70-e277-43f0-97a6-37c3d6c13219" />
 
-Obs.: trata-se de uma emulação do clássico jogo educacional "Mario Teaches Typing" (1995) rodando diretamente no navegador.
+Obs.: trata-se de uma emulação do clássico jogo educacional "Mario Teaches Typing" (1992/1995) rodando diretamente no navegador.
 
 ![Status](https://img.shields.io/badge/status-production-success)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
@@ -42,10 +43,10 @@ Obs.: trata-se de uma emulação do clássico jogo educacional "Mario Teaches Ty
 
 ```bash
 # Clone o repositório
-git clone https://github.com/aryribeiro/mario-teaches-typing.git
+git clone https://github.com/aryribeiro/mario.git
 
 # Entre na pasta
-cd mario-teaches-typing
+cd mario
 
 # Instale dependências
 npm install
@@ -114,44 +115,6 @@ O emulador está configurado com:
    - `frameskip=0` - Não pula frames
 
 ---
-
-## 🚀 Deploy na Vercel
-
-### Método 1: Via GitHub (Recomendado)
-
-```bash
-# 1. Inicializar Git
-git init
-
-# 2. Adicionar arquivos
-git add .
-
-# 3. Commit
-git commit -m "Mario Teaches Typing - Ready for production"
-
-# 4. Criar repo no GitHub e conectar
-git remote add origin https://github.com/aryribeiro/mario-teaches-typing.git
-git branch -M main
-git push -u origin main
-
-# 5. Ir para vercel.com/new e importar o repositório
-```
-
-### Método 2: Via Vercel CLI
-
-```bash
-# 1. Instalar CLI
-npm install -g vercel
-
-# 2. Login
-vercel login
-
-# 3. Deploy
-vercel
-
-# 4. Deploy produção
-vercel --prod
-```
 
 ### Configurações na Vercel
 
