@@ -66,8 +66,8 @@ machine=svga_s3
 [mixer]
 nosound=false
 rate=44100
-blocksize=1024
-prebuffer=25
+blocksize=512
+prebuffer=20
 
 [sblaster]
 sbtype=sb16
